@@ -1,0 +1,16 @@
+        inp
+        sto a
+        inp 
+        sto b
+        lda a
+loop    sub b
+        brz zero 
+        brp loop
+        add b
+        out 
+        hlt
+zero    out
+        hlt
+a       dat
+b       dat
+r       dat

@@ -1,0 +1,45 @@
+        inp 
+        sto a
+        inp
+        sto b
+        lda a
+        sub b
+        brz equal
+        lda a
+        sub b
+        brp greater
+        lda B
+        otc B
+        lda a
+        add b
+        out
+        hlt
+greater lda A 
+        otc A
+        lda a
+        sub b
+        out
+        hlt
+equal   lda c
+        sub c
+        sto c
+product lda a
+        brz chapc
+        lda c
+        add b
+        sto c
+        lda a
+        sub yek
+        sto a
+        bra product
+chapc   lda c
+        out
+        hlt
+a       dat
+b       dat
+c       dat 0
+yek     dat 1
+w       dat 
+v       dat
+A       dat 65
+B       dat 66

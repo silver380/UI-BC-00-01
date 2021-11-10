@@ -1,0 +1,52 @@
+        inp
+        sto a
+        inp
+        sto b
+count   lda n
+        add a
+        sto n
+        lda a
+        add one
+        sto a
+        lda b
+        sub a
+        brp count 
+        lda H
+        otc
+        lda E
+        otc
+        lda L
+        otc
+        otc
+printo  lda n
+        brz rest
+        sub one
+        sto n
+        lda O
+        otc
+        bra printo
+rest    lda Space
+        otc
+        lda W
+        otc 
+        lda O
+        otc
+        lda R
+        otc
+        lda L
+        otc
+        lda D
+        otc
+        hlt
+a       dat
+b       dat
+n       dat 0
+one     dat 1
+H       dat 104
+E       dat 101
+L       dat 108
+Space   dat 32
+O       dat 111
+W       dat 119
+R       dat 114
+D       dat 100
