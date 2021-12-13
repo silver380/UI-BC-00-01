@@ -1,4 +1,4 @@
-// by: Kian Majlessi - FP-991-Dr.Mahvash - Class Code
+// by: Kian Majlessi
 
 #include <stdio.h>
 unsigned short int res(unsigned short int k);
