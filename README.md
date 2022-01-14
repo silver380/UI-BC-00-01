@@ -5,4 +5,10 @@ Repository for "Fundamentals of Computer and Programming" course
 
 Professor:
  - Dr. Mojtaba Mahdavi
+ 
+Teacher assists:
+ - [Mohammad Mahdi Bakhshi](https://github.com/thantez)
+ - [Kian Majlesi](https://github.com/kianmajl)
+ - [Mitra Omrani](https://github.com/Mitraaaaa)
+ - [Reza Rastegari](https://github.com/silver380)
 
